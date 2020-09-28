@@ -24,7 +24,8 @@
 	<center><h3> The App "Serial Terminal & HMI PLC" is App for manage DO's (digital outputs) PLC. </h3>
 	 
 	<br> </br>
-	Here we use PLC Arduino UNO R3, as exaple. As option possible to read data of AI (analog inputs), and other more... All main functions as in "big" Industrial PLC's. The App was made using C++. 
+	The App "Serial Terminal & HMI PLC" was made using C++. This is a standard HMI principle: PC and PLC communicate using serial protocol. By pressing a button on the HMI panel, the command is sent from the HMI to the PLC. The controller receives data and, depending on the logic, performs actions. In addition, the data received from the analog inputs of the PLC is transferred to the HMI and stored in the PC on the HDD as log file, and this data is also duplicated from the record on the SD card in the PLC as log file (<= 2 Gb).
+	The App was made using C++. 
 Logic of works: 1. Connect to USB PC -> USB\RS232 native adaptor to PLC Arduino. 2. Start App "Serial Terminal & HMI". 3. Password. 4. In Main Window choose the basic setts: com port number (1 ... or any connected com port) , BaudRate (9600 for Arduino), ByteSize (8), Parity (None), StopBit (1), Autosaving to Log - file (*.csv format); COM#,9600,8,N,1.
 5. Press Connect Serial button, and siignal if all is Ok: message at Terminal: waiting... (PLC waits for commands). 
 As Example, when we press 1kV Button, Terminal sends to Serial Port command: "cmd1". The PLC reads string and using "if" condition, opens DO#1, which give NC contact for start High Voltage Generator : 1 kv DC.
