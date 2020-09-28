@@ -53,7 +53,6 @@ This App "Serial Terminal & HMI PLC" has additional Setts, as: Buffer In\Out Siz
 
 
 Serial Terminal
-"Version V32 Pro"
-I.Shaturny ishPLC © 2020
-ishplcprog@gmail.com
+"Version V32 Pro" 
+ishPLC © 2020
 22 Sep 2020
