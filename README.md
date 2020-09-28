@@ -1,6 +1,6 @@
 # The App "Serial Terminal & HMI PLC" is App for manage DO's (digital outputs) PLC.
 
-The App The App "Serial Terminal & HMI PLC" was made using C++. 
+The App "Serial Terminal & HMI PLC" was made using C++. 
 This is a standard HMI principle: PC and PLC communicate using serial protocol. By pressing a button on the HMI panel, the command is sent from the HMI to the PLC. The controller receives data and, depending on the logic, performs actions. In addition, the data received from the analog inputs of the PLC is transferred to the HMI and stored in the PC on the railway, and this data is also duplicated from the record on the SD card in the PLC in the form of a log file.
 
 Logic of works: 
